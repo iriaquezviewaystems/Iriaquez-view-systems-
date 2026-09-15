@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iriaquez View Systems | Architectural Railing Systems</title>
+<meta name="description" content="Iriaquez View Systems — premium aluminum, glass and cable architectural systems in Austin, Texas.">
+<style>
+:root{--bg:#080a0d;--panel:#101419;--text:#f4f6f8;--muted:#aab2bb;--line:#252b32;--accent:#3ea7e8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+a{color:inherit;text-decoration:none}.container{width:min(1180px,92%);margin:auto}
+header{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(8,10,13,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;letter-spacing:.16em;font-size:14px}.brand span{color:var(--accent)}
+nav{display:flex;gap:28px;font-size:13px;color:#d7dce1;text-transform:uppercase;letter-spacing:.12em}
+.btn{display:inline-block;padding:14px 21px;border:1px solid rgba(255,255,255,.18);border-radius:2px;text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:700}
+.btn.primary{background:var(--text);color:#080a0d;border-color:var(--text)}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:78px}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 40%,rgba(62,167,232,.18),transparent 34%),linear-gradient(115deg,rgba(255,255,255,.03),transparent 45%);pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.kicker{color:var(--accent);text-transform:uppercase;letter-spacing:.25em;font-size:12px;font-weight:700}
+h1{font-size:clamp(46px,7vw,88px);line-height:.95;margin:18px 0 24px;letter-spacing:-.045em}
+.hero p{max-width:610px;color:var(--muted);font-size:18px;margin-bottom:34px}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+.visual{height:520px;border:1px solid var(--line);background:linear-gradient(135deg,#171c21,#080a0d);position:relative;overflow:hidden}
+.visual:after{content:"";position:absolute;width:280px;height:520px;right:70px;top:0;background:linear-gradient(90deg,transparent,rgba(80,180,240,.12),transparent);transform:skewX(-16deg)}
+.visual img{width:100%;height:100%;object-fit:contain;mix-blend-mode:screen;opacity:.92}
+section{padding:105px 0;border-top:1px solid var(--line)}
+.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:45px}
+h2{font-size:42px;letter-spacing:-.03em;margin:0}.section-head p{color:var(--muted);max-width:520px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);padding:30px;min-height:220px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#3a444e}
+.icon{font-size:28px;color:var(--accent);margin-bottom:32px}.card h3{margin:0 0 10px;font-size:19px}.card p{color:var(--muted);font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.project{height:330px;background:linear-gradient(145deg,#1a2026,#0b0d10);border:1px solid var(--line);display:flex;align-items:end;padding:25px;position:relative;overflow:hidden}
+.project:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 45%,rgba(62,167,232,.12));}
+.project div{position:relative}.project strong{display:block;font-size:20px}.project span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.13em}
+.quote{background:linear-gradient(120deg,#12181e,#0b0d10);padding:55px;border:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:40px}
+form{display:grid;gap:12px}input,select,textarea{width:100%;background:#080a0d;border:1px solid #2b3239;color:white;padding:14px;font:inherit}textarea{min-height:130px;resize:vertical}
+footer{padding:55px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.footer-grid{display:flex;justify-content:space-between;gap:30px}.smallcaps{text-transform:uppercase;letter-spacing:.14em}
+@media(max-width:850px){nav{display:none}.hero-grid,.quote{grid-template-columns:1fr}.visual{height:380px}.cards{grid-template-columns:1fr 1fr}.projects{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:15px}.quote{padding:30px}}
+@media(max-width:520px){.cards{grid-template-columns:1fr}h2{font-size:34px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="#top">IRIAQUEZ <span>VIEW SYSTEMS</span></a>
+<nav><a href="#systems">Systems</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#quote">Quote</a></nav>
+<a class="btn primary" href="#quote">Request a Quote</a>
+</div></header>
+
+<main id="top">
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="kicker">Austin • Central Texas</div>
+<h1>Modern systems.<br>Uninterrupted views.</h1>
+<p>Premium architectural railing and outdoor systems designed around clean lines, durable materials and the view you want to keep open.</p>
+<div class="actions"><a class="btn primary" href="#quote">Request a Quote</a><a class="btn" href="#systems">Explore Systems</a></div>
+</div>
+<div class="visual"><img src="logo.png" alt="Iriaquez View Systems logo"></div>
+</div>
+</section>
+
+<section id="systems"><div class="container">
+<div class="section-head"><h2>Our Systems</h2><p>Built for residential and commercial projects where appearance, durability and a clean architectural finish matter.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">▱</div><h3>Glass Rail Systems</h3><p>Frameless and post-supported options designed to maximize visibility and natural light.</p></div>
+<div class="card"><div class="icon">≡</div><h3>Cable Rail Systems</h3><p>Minimal stainless cable layouts for decks, stairs, balconies and modern outdoor spaces.</p></div>
+<div class="card"><div class="icon">◇</div><h3>Aluminum Systems</h3><p>Low-maintenance aluminum solutions with a refined architectural appearance.</p></div>
+<div class="card"><div class="icon">＋</div><h3>Architectural Systems</h3><p>Custom combinations of aluminum, glass, stainless and cable components for modern projects.</p></div>
+</div></div></section>
+
+<section id="projects"><div class="container">
+<div class="section-head"><h2>Selected Projects</h2><p>Replace these placeholders with your best project photos as your portfolio grows.</p></div>
+<div class="projects">
+<div class="project"><div><strong>Glass Railings</strong><span>Residential / Austin</span></div></div>
+<div class="project"><div><strong>Cable Systems</strong><span>Deck / Central Texas</span></div></div>
+<div class="project"><div><strong>Aluminum Systems</strong><span>Architectural / Texas</span></div></div>
+</div></div></section>
+
+<section id="about"><div class="container">
+<div class="section-head"><h2>Designed for the view.</h2><p>Iriaquez View Systems focuses on modern railing and architectural systems with a simple goal: deliver a clean installation that looks intentional from every angle.</p></div>
+</div></section>
+
+<section id="quote"><div class="container">
+<div class="quote">
+<div><div class="kicker">Start your project</div><h2>Let’s build something clean.</h2><p style="color:var(--muted)">Send your project details and we’ll follow up about measurements, material options and installation.</p></div>
+<form onsubmit="event.preventDefault();alert('Thank you! Connect this form to your business email or form service before launching.');">
+<input placeholder="Name" required><input type="tel" placeholder="Phone" required><input type="email" placeholder="Email" required>
+<select><option>Project Type</option><option>Glass Rail</option><option>Cable Rail</option><option>Aluminum System</option><option>Other Architectural System</option></select>
+<textarea placeholder="Tell us about your project..."></textarea><button class="btn primary" type="submit">Send Request</button>
+</form>
+</div></div></section>
+</main>
+
+<footer><div class="container footer-grid"><div><strong style="color:white">IRIAQUEZ VIEW SYSTEMS</strong><br><span class="smallcaps">Aluminum • Glass • Cable • Architectural Systems</span></div><div>Austin, Texas<br>512-XXX-XXXX • your@email.com</div></div></footer>
+</body>
+</html>
